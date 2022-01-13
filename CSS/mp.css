@@ -1,0 +1,1213 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+body{
+  position  : relative;
+  height: 100vh;
+  overflow-x : hidden;
+
+}
+.box{
+  min-height:100vh;
+  position:relative;
+  padding-bottom:100px;
+  box-sizing:border-box;
+  background:#858585;
+}
+
+.headm{
+  display:flex;
+  flex-direction:column;
+  width:100vw;
+  height:180px;
+  background:#858585;
+}
+
+.menu{
+  border-top:5px solid #333333;
+
+}
+.menu ul{
+  display : flex;
+	flex-direction:row;
+	justify-content : space-between;
+	background : #474747;
+	color : #474747;
+	margin-bottom : 10px;
+
+}
+.menu li{
+  border-right: 1px solid #333333;
+  border-left: 1px solid #333333;
+  width : 25vw;
+  text-align:center;
+  font-size :20px;
+  border-bottom:5px solid #333333;
+}
+.menu a{
+  text-decoration: none;
+  color:black;
+}
+
+.line{
+  display:flex;
+  flex-direction:row;
+}
+/*ここから下はindex.php、汎用*/
+.tops{
+  display:flex;
+  justify-content:center;
+}
+.topsam {
+  display :flex;
+  flex-direction : row;
+}
+.topsam img{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.rightl{
+  display:flex;
+  justify-content:flex-end;
+}
+.right2 a{
+  display:flex;
+  text-decoration: none;
+
+}
+.toplink{
+  font-size : 20px;
+  margin-left:50px;
+}
+
+.returnmatelist{
+  margin-top:50px;
+  margin-left:5vw;
+  width:5vw;
+  height:50px;
+}
+.returnmatelist2{
+  width:110px;
+  padding:5px;
+}
+.returnmatelist3{
+  width:180px;
+  height:50px;
+  padding:5px;
+  margin-left:100px;
+}
+.returnmatelist4{
+  margin-top:50px;
+  width:180px;
+  height:50px;
+  padding:5px;
+  margin-left:100px;
+}
+.returnmatema{
+  width:110px;
+  padding:5px;
+}
+
+#goauser{
+  width:130px;
+  padding:5px;
+}
+
+.mpbtnlist{
+  display:flex;
+  flex-direction:row;
+}
+.mpbtnlistsmc{
+  display:flex;
+  flex-direction:row;
+}
+
+.returnuser{
+  margin-top:50px;
+  margin-left:100px;
+  width:6vw;
+  height:50px;
+}
+.returnuser2{
+  margin-top:50px;
+  margin-left:50px;
+  width:6vw;
+  height:50px;
+}
+.returnuser3{
+  margin-top:10px;
+  width:180px;
+  padding:5px;
+}
+
+.returnlogin{
+  width:12vw;
+  height:25px;
+}
+.tatebtn{
+  display:flex;
+  flex-direction:column;
+  position:absolute;
+  left:60vw;
+  top:800px;
+}
+
+.matelisme{
+  margin-top:10px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.sort-btn{
+    display: flex;
+    padding: 4px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.catece{
+  display:flex;
+  flex-direction:row;
+}
+.allce{
+  display:flex;
+  flex-direction:row;
+}
+.irce{
+  display:flex;
+  flex-direction:row;
+}
+.pice{
+  display:flex;
+  flex-direction:row;
+}
+.woce{
+  display:flex;
+  flex-direction:row;
+}
+.sortlist{
+  margin-top:20px;
+  display:flex;
+  flex-direction:column;
+}
+.sidename{
+  width:150px;
+  margin-top:100px;
+  margin-left:20px;
+}/*ブックマークユーザー画面のユーザー名*/
+.sidename a{
+  height:20px;
+}
+
+
+
+.hiddenthumbnail{
+  font-size:25px;
+
+}
+.matelist{
+  display:flex;
+  flex-direction:row;
+}
+
+ul {
+  list-style: none;
+}
+
+.chbtn{
+  display:flex;
+  text-align:right;
+  align-items:flex-end;
+  justify-content: flex-end;
+}/*素材表示ページボタンクラス*/
+.chbtn button{
+  width:40px;
+  padding:5px;
+}/*素材表示ページボタン*/
+
+.mppost2{
+  margin-left:5vw;
+  margin-right:5vw;
+}
+.metip{
+  width:90vw;
+  border: 2px solid #070707;
+  margin-top:10px;
+  height:40px;
+  background:#fbfbfb;
+  text-align:left;
+}
+.meme{
+  width:90vw;
+  height:5em;
+  border: 2px solid #070707;
+  margin-top:10px;
+  font-size:20px;
+  background:#fbfbfb;
+}
+
+#gomatepost{
+  margin-top:50px;
+  margin-left:67vw;
+  margin-right:5vw;
+  width:230px;
+  height:40px;
+}
+
+
+/*ここから下はMPlogin.php、MPpassfg.php*/
+.loginpl{
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.label{
+  font-weight: bold;
+  font-size:20px;
+}
+
+.formlog{
+  display:flex;
+  justify-content:center;
+}
+
+.formlog2{
+  display:flex;
+  margin-left:2vw;
+  justify-content:center;
+}
+
+.formlog3{
+  display:flex;
+  margin-right:2vw;
+  justify-content:center;
+}
+
+.sform{
+  align-items:center;
+  width:400px;
+  height:50px;
+  margin-right:5vw;
+}
+#sform1{
+  align-items:center;
+  width:400px;
+  height:50px;
+  margin-right:5vw;
+  margin-bottom:50px;
+}
+#sform2{
+  align-items:center;
+  width:400px;
+  height:50px;
+  margin-right:5vw;
+  margin-bottom:50px;
+}
+#sform3{
+  align-items:center;
+  width:400px;
+  height:50px;
+  margin-right:5vw;
+  margin-bottom:50px;
+}
+#sform4{
+  align-items:center;
+  width:400px;
+  height:50px;
+  margin-right:5vw;
+  margin-bottom:50px;
+}
+
+.passr{
+  display:flex;
+  justify-content:center;
+}
+
+#loginbu{
+  margin-top:50px;
+  margin-left:45vw;
+  width:200px;
+  height:50px;
+}
+
+#passrsousin{
+  margin-top:50px;
+  width:200px;
+  height:50px;
+}
+.returnpr{
+  margin-top:50px;
+  margin-left:100px;
+  width:80px;
+  height:50px;
+}
+.returnpr2{
+  width:80px;
+  padding:5px;
+}
+.returnpr3{
+  margin-top:50px;
+  width:80px;
+  padding:5px;
+  margin-left:100px;
+}
+.mdel{
+  width:170px;
+  padding:5px;
+  margin-left:250px;
+}
+.returntop{
+  width:80px;
+  padding:5px;
+}
+
+.ellog {
+  width:100vw;
+  display:inline-block;
+  text-align:right;
+}
+
+
+
+/*個々より下はmaterialpost.php*/
+.mppost{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  margin-left:5vw;
+  margin-right:5vw;
+}
+
+.area{
+  margin-top:10px;
+  border:  solid 2px #070707;
+}
+.area{
+  margin-top:10px;
+}
+
+.mppost2{
+  display:flex;
+  justify-content:space-between;
+  text-align:center;
+  margin-left:5vw;
+  margin-right:5vw;
+}
+
+.posttags{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+#tagselect{
+  width:15vw;
+  height:30px;
+}
+
+.formpost{
+
+  width:20vw;
+}
+.formpost2{
+
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.formpost3{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+
+#pforma{
+  border: 2px solid #070707;
+  width:20vw;
+  height:40px;
+}
+#pforma2{
+  border: 2px solid #070707;
+  width:20vw;
+  height:60px;
+}
+#pformb{
+  border: 2px solid #070707;
+  width:20vw;
+  height:40px;
+}
+
+#pformc{
+  border: 2px solid #070707;
+  width:20vw;
+  height:40px;
+}
+
+.pform2{
+  border: 2px solid #070707;
+  margin-top:10px;
+  height:40px;
+}
+#pform2a{
+  border: 2px solid #070707;
+  margin-top:10px;
+  height:40px;
+}
+#pform3a{
+  width:10vw;
+  height:40px;
+  border: 2px solid #070707;
+  margin-top:10px;
+}
+
+#pform3b{
+  width:10vw;
+  height:40px;
+  border: 2px solid #070707;
+  margin-top:10px;
+}
+#pform3c{
+  width:10vw;
+  height:40px;
+  border: 2px solid #070707;
+  margin-top:10px;
+}
+#pform3d{
+  width:10vw;
+  height:40px;
+  border: 2px solid #070707;
+  margin-top:10px;
+}
+#pform3e{
+  width:10vw;
+  height:40px;
+  border: 2px solid #070707;
+  margin-top:10px;
+}
+#pform3f{
+  width:10vw;
+  height:40px;
+  border: 2px solid #070707;
+  margin-top:10px;
+}
+#pform4{
+  width:30em;
+  height:7em;
+  border: 2px solid #070707;
+  margin-top:10px;
+  font-size:20px;
+}
+
+
+.posttext{
+  margin-left:5vw;
+  margin-top:40px;
+  font-size:18px;
+}
+
+.filepost{
+  margin-top:20px;
+  margin-left:5vw;
+  margin-right:5vw;
+  display:flex;
+  justify-content: space-between;
+}
+.leftup{
+  margin-left:0.25vw;
+  margin-right:0.25vw;
+}
+.centerup{
+  margin-left:0.25vw;
+  margin-right:0.25vw;
+}
+.rightup{
+  margin-left:0.25vw;
+  margin-right:0.25vw;
+}
+
+.unlef{
+  margin-top:20px;
+}
+.uncen{
+  margin-top:20px;
+}
+.unri{
+  margin-top:20px;
+}
+
+.filelabelle{
+  color:#070707;
+  background:#f7f7f7;
+  padding:10px;
+  border:solid 2px #070707;
+  padding:10px 1vw;
+
+}
+.filelabelcen{
+  color:#070707;
+  background:#f7f7f7;
+  padding:10px;
+  border:solid 2px #070707;
+  padding:10px 1vw;
+
+}
+.filelabelrig{
+  color:#070707;
+  background:#f7f7f7;
+  padding:10px;
+  border:solid 2px #070707;
+  padding:10px 1vw;
+
+}
+
+#mpost1{
+  display:none;
+}
+#mpost2{
+  display:none;
+}
+#mpost3{
+  display:none;
+}
+
+.kakeru{
+  font-size:40px;
+}
+
+#gompp{
+  margin-top:50px;
+  margin-left:67vw;
+  margin-right:5vw;
+  width:10vw;
+  height:50px;
+
+}
+/*この下は投稿プレビュー、素材詳細、自素材詳細*/
+
+.mpdmain{
+  display:flex;
+  flex-direction:row;
+  width:100vw;
+}
+.mpicb{
+  display:flex;
+  margin-top:10px;
+  margin-left:2.5vw;
+  width:55vw;
+  height:50vh;
+  border:  solid 2px #070707;
+}
+
+.mpic img{
+  position: absolute;
+  　top: 50%;
+  　left: 50%;
+  　-webkit-transform: translate(-50%, -50%);
+  　-ms-transform: translate(-50%, -50%);
+  　transform: translate(-50%, -50%);
+  　max-width: 100%;
+  　max-height: 100%;
+  　width: auto;
+  　height: auto;
+}
+.mpic{
+  margin:0 auto;
+}
+.sizedl{
+  display:flex;
+
+  margin-bottom:70px;
+}
+.size{
+  display:flex;
+  flex-direction:column;
+  margin-left:5vw;
+}
+.sizelms{
+  display:flex;
+  flex-direction:row;
+  margin-top:10px;
+
+}
+.sizelmsn{
+  width:12em;
+  border:  solid 2px #070707;
+  background-color:#ececec;
+}
+.sizelms a{
+  text-decoration:none;
+}
+.dl{
+  margin-left:50px;
+  color:#090909;
+  text-align:center;
+  padding:5px;
+  background-color:#ececec;
+  border:  solid 2px #000000;
+  border-radius:5px;
+  box-shadow:0px 2px 2px #333333;
+}
+.mpx{
+  margin-right:200px;
+}
+.mpex{
+  display:flex;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:5vw;
+  width:35vw;
+  height:50vh;
+  border:  solid 2px #070707;
+}
+
+.mpext{
+  font-size:22px;
+}
+.extags{
+  display:flex;
+}
+.catetagtex{
+  margin-left:5vw;
+  margin-top:5px;
+}
+.catetagtex2{
+
+  margin-top:5px;
+}
+.excategorytag{
+  display:flex;
+  flex-direction:row;
+  margin-left:20px;
+  margin-right:20px;
+}
+.excategory{
+  font-size:12px;
+  margin-top:5px;
+}
+
+.tagbtn{
+  font-size:13px;
+  width:170px;
+  padding:2px;
+}
+
+#materialpostfinish{
+  width:100px;
+  padding:5px;
+}
+#mesave{
+  width:250px;
+  padding:5px;
+}
+#mesavee{
+  width:250px;
+  padding:5px;
+  margin-top:25px;
+}
+#mepl{
+  width:100px;
+  padding:5px;
+}
+#mepl2{
+  width:100px;
+  height:50px;
+  padding:10px;
+}
+#mepl3{
+  margin-top:30px;
+  width:100px;
+  height:50px;
+  padding:10px;
+}
+#materialdel{
+  margin-right:200px;
+  width:300px;
+  padding:5px;
+}
+
+.matebtnset{
+  display: flex;
+  margin-top:10px;
+  margin-left:300px;
+}
+.matebtnset2{
+  display: flex;
+  margin-top:10px;
+  margin-left:300px;
+}
+
+.matebtnsetdeteal{
+  display: flex;
+  margin-top:10px;
+  margin-left:50px;
+}
+
+.sortbtnerea{
+  margin-left:100px;
+}
+
+
+
+
+
+
+
+#id01 {
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  margin-left:5vw;
+  margin-right:5vw;
+  flex-wrap:wrap;
+}
+
+#id02 {
+  display:flex;
+  flex-direction:column;
+  list-style:none;
+  flex-wrap:wrap;
+}
+
+.nakakomi{
+  margin-bottom:100px;
+
+
+
+}
+
+.matelistthumb :: before{
+  display:flex;
+
+}
+
+.matelistthumb{
+  display:flex;
+  margin-left:60px;
+  margin-right:60px;
+}
+
+.matelistthumb img{
+  display:flex;
+  width:220px;
+  height:220px;
+  border-radius:10px;
+}
+.matelistthumb2 :: before{
+  display:flex;
+
+}
+
+.matelistthumb2{
+  display:flex;
+  margin-left:60px;
+  margin-right:60px;
+}
+
+.matelistthumb2 img{
+  display:flex;
+  width:180px;
+  height:180px;
+  border-radius:10px;
+}
+
+.matetimg{
+  object-fit:cover;
+  object-position:center center;
+}
+
+.titlebtnset{
+  display:flex;
+  flex-direction:row;
+  margin-top:20px;
+  align-items:right;
+}
+
+
+.matename{
+  display:flex;
+  flex-direction:row;
+  margin-left:60px;
+  font-size:15px;
+  weight:175px;
+  margin-right:10px;
+}
+
+
+.goodcount{
+  display:flex;
+}
+
+.titlebtn{
+  display:flex;
+  flex-direction:row;
+  text-align:right;
+  align-items:center;
+  weight:45px;
+}
+
+.dbtn{
+  display:flex;
+  flex-direction:column;
+}
+
+.goodbtn{/*materiailist*/
+  display:flex;
+  flex-direction:row;
+  text-align:center;
+  width:30px;
+  height:30px;
+}
+
+.goodbtn img{
+  width:30px;
+  height:30px;
+}
+
+.goodbtn2{
+  display:flex;
+  flex-direction:row;
+  text-align:center;
+  margin-left:10px;
+  width:30px;
+  height:30px;
+}
+.goodbtn2 img{
+  width:30px;
+  height:30px;
+}
+
+.goodbtn3{/*materialdeteal*/
+  display:flex;
+  flex-direction:row;
+  text-align:center;
+  width:30px;
+  height:30px;
+  margin-left:10px;
+}
+
+.bookmarkbtn{
+  display:flex;
+  flex-direction:row;
+  text-align:center;
+  margin-left:10px;
+  width:30px;
+  height:30px;
+}
+
+.tagbtn{
+  padding:15px;
+}
+
+
+
+/*この下はリクエスト*/
+
+.mpreq{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  margin-left:5vw;
+  margin-right:5vw;
+}
+
+
+.mareq{
+  width:240px;
+  height:40px;
+  margin-top:10px;
+  margin-left:100px;
+  font-size:20px;
+}
+.sortbtnerea2{
+  margin-left:100px;
+}
+.reqlist{
+  margin-top:15px;
+  margin-left:30px;
+}
+.reqlist li{
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.goreqd{
+  margin-left:120px;
+  font-size:25px;
+}
+
+#reqpwrap{
+  margin-top:50px;
+  margin-left:67vw;
+  margin-right:5vw;
+  width:10vw;
+  height:50px;
+}
+.rppost{
+  margin-top:10px;
+  margin-left:5vw;
+}
+/*この下はユーザー関連*/
+.userbtnsetall{
+  margin-top:80px;
+}
+.userbtnset{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.userbtnsingle{
+  display:flex;
+  justify-content:center;
+}
+.userbtnleft{
+  margin-right:200px;
+  width:250px;
+}
+.userbtnleft2{
+  position:absolute;
+  left:510px;
+}
+.userbtnleft a{
+  vertical-align: middle;
+}
+.userbtnleft2 a{
+  vertical-align: middle;
+}
+.userbtnright{
+  margin-left:200px;
+  width:250px;
+}
+.userbtnright a{
+  vertical-align: middle;
+}
+.yokobtn{
+  display:flex;
+  justify-content:center;
+  margin-top:150px;
+}
+.returntop2{
+  margin-right:50px;
+  width:80px;
+  padding:5px;
+}
+.returntopout{
+  margin-left:50px;
+  width:100px;
+  padding:5px;
+}
+.auserlink{
+  display:flex;
+  flex-direction:column;
+  margin-left:85vw;
+}
+.auserlink a{
+  width:220px;
+}
+/*メッセージ関連*/
+.meuserp{
+  margin-top:10px;
+  margin-left:100px;
+}
+.returnuser4{
+  width:200px;
+  height:50px;
+  padding:5px;
+  margin-left:100px;
+}
+
+.returnuser4e{
+  width:200px;
+  height:50px;
+  padding:5px;
+  margin-top:25px;
+  margin-left:100px;
+}
+.returnmma{
+  width:200px;
+  height:50px;
+  padding:5px;
+  margin-left:100px;
+}
+.mepp{
+  margin-top:25px;
+  margin-left:50px;
+  margin-right:5vw;
+  width:80px;
+  height:50px;
+}
+.meppme{
+  margin-left:50px;
+  margin-right:5vw;
+  width:80px;
+  height:50px;
+}
+.returnpr4{
+  margin-top:25px;
+  width:80px;
+  height:50px;
+  margin-left:100px;
+}/*中断メッセージ戻るボタン*/
+#reqpp{
+  margin-top:50px;
+  width:100px;
+  height:50px;
+  display:inline-block;
+}
+#reqppsmc{
+  margin-top:25px;
+  width:100px;
+  height:50px;
+  display:inline-block;
+}/*中断メッセージ編集削除ボタン*/
+.abu{
+  padding:0px;
+  margin-top:25px;
+  margin-left:30vw;
+}
+.abu2{
+  padding:0px;
+  margin-top:25px;
+  margin-left:67vw;
+  margin-right:5vw;
+}
+.abu22{
+  padding:0px;
+  margin-top:25px;
+  margin-left:80vw;
+  margin-right:5vw;
+}
+.abu3{
+  padding:10px;
+  width:100px;
+  margin-top:20px;
+  margin-left:30vw;
+  display:flex;
+  flex-direction:row;
+}
+#reqpp2{
+
+  width:100px;
+  height:50px;
+  display:inline-block;
+}
+#reqpp3{
+
+  width:100px;
+  height:50px;
+}
+
+
+.mekan{
+  display:flex;
+  flex-direction:column;
+}
+.soukaku{
+  margin-top:50px;
+  margin-left:200px;
+  width:200px;
+  height:50px;
+}
+.jukaku{
+  margin-top:50px;
+  margin-left:200px;
+  width:200px;
+  height:50px;
+}
+.tyuuhen{
+  margin-top:50px;
+  margin-left:200px;
+  width:200px;
+  height:50px;
+}
+.sortbtnerea3{
+  margin-top:20px;
+  margin-left:100px;
+}
+.mpbtnlist2{
+  display:flex;
+  flex-direction:row;
+}
+.returnuser5{
+  width:200px;
+  height:50px;
+  padding:5px;
+  margin-left:100px;
+}
+.returnmma2{
+  width:200px;
+  height:50px;
+  padding:5px;
+  margin-left:100px;
+}
+.mepp2{
+  margin-left:1000px;
+  width:80px;
+  height:50px;
+}
+.mepp3{
+  margin-left:50px;
+  margin-right:5vw;
+
+}
+
+.usermaall{
+  display:flex;
+  flex-direction:row;
+}
+.mepp3{
+  display:flex;
+  flex-direction:column;
+  margin-left:100px;
+  width:50px;
+  height:25px;
+  align-items:center;
+
+}
+
+.mepp5{
+  margin-left:1100px;
+  margin-right:5vw;
+  margin-top:20px;
+  width:80px;
+  height:50px;
+}
+.mlog{
+  display:flex;
+  flex-direction:column;
+}
+.returnlogin2{
+  margin-top:10px;
+  width:12vw;
+  height:25px;
+}
+
+
+
+/*この下はフッター*/
+.foot{
+  position:absolute;
+  bottom:0;
+  width:100vw;
+  height:50px;
+  background:#333333;
+}
+
+.foot2{
+
+  position:absolute;
+  bottom:0;
+  width:100vw;
+  height:50px;
+  background:#333333;
+}
